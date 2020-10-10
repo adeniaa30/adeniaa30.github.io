@@ -1,0 +1,171 @@
+.judul {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.judul1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#home {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 400px;
+    top: 110px;
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+#about {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 460px;
+    top: 110px;
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+#articel {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 520px;
+    top: 110px;
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+#plants {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 580px;
+    top: 110px;
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+#location{
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 640px;
+    top: 110px;
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+#quote {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 715px;
+    top: 110px;
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+#tips {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 775px;
+    top: 110px;
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+#forum {
+    position: absolute;
+    width: 54px;
+    height: 16px;
+    left: 825px;
+    top: 110px;
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+.bagianhome {
+    width: 100%;
+    background-size: cover;
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.quote {
+    text-align: center;
+}
+
+#kotak {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0px;
+    top: 400px;
+    background: rgba(244, 240, 240, 0.4);
+}
+p {
+    text-align: center;
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: black;
+}
+#ijo {
+    background-color: #B8E694;
+    width: 100%;
+    height: 100%;
+}
