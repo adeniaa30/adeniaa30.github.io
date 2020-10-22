@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .judul {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -5,6 +9,26 @@
 .judul1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+
+hr{
+    width: 70%;
+    text-align: center; 
+    size :3; 
+    color:grey
+}
+#kotakjudul{
+    border-style: groove;
+    border-color: black;
+    border-width: thin;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+.navbar {
+    padding: 10px;
+    position: absolute;
 }
 #home {
     position: absolute;
@@ -168,4 +192,46 @@ p {
     background-color: #B8E694;
     width: 100%;
     height: 100%;
+}
+
+.gridBesar{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid{
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#ijo2 {
+    background-color: #172B0F;
+    width: 100%;
+    height: 50%;
+}
+
+.p2 {
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    padding-left: 70px;
+}
+#p1{
+    font-family: Microsoft Sans Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    padding-left: 70px;
+}
+.grid2{
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
 }
