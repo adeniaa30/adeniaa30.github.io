@@ -4,12 +4,16 @@ html{
 
 .judul {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Goudy Old Style;
+    align-items: center;
+    font-weight: lighter;
 }
 #judul1 {
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Goudy Old Style;
     padding-top: 100px;
+    font-weight: bold;
+    font-size: 64px;
 }
 .judul2{
     text-align: center;
@@ -41,14 +45,19 @@ hr{
     border-width: 2px;
     border-radius: 3px;
     padding: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
     text-align: justify;
     width: fit-content;
     margin: auto;
 }
 #navbar{
+    display: grid;
+    grid-template-columns: 100px auto auto auto auto auto auto auto auto;
+    column-gap: 20px;
+    width: 100%;
     margin: auto;
+    justify-content: center;
     overflow: hidden;
     position: -webkit-sticky;
     position: sticky;
@@ -56,22 +65,28 @@ hr{
     top: 0;
     background: fixed;
     background-color: white;
-    width: fit-content;
 }
 #navbar a {
     float: left;
-    display: block;
     color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    background-position: center;
+    background-size: contain;
+    font-family: Microsoft Sans Serif;
 }
 #navbar a:hover{
     background-color: darkseagreen;
 }
-
-.bagianhome {
+#logo{
+    background-image: url("logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#bagianhome {
     width: 100%;
     bottom: 200px;
     background-size: cover;
@@ -125,6 +140,7 @@ hr{
     background: rgba(0, 0, 0, 0.7);
     border-radius: 15px;
     margin: auto;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 p {
     text-align: center;
@@ -139,8 +155,13 @@ p {
     background-color: #B8E694;
     width: 100%;
     height: 100%;
-    top: 350px;
+    top: 280px;
     bottom: auto;
+}
+#ijo, p {
+    font-family: Goudy Old Style;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #gridBesar{
@@ -182,17 +203,19 @@ p {
     height: 50%;
     position: relative;
     bottom: auto;
-    top: 500px
+    top: 300px
 }
 
 .p2 {
     font-family: Microsoft Sans Serif;
     font-style: normal;
     font-weight: normal;
+    text-decoration: none;
     font-size: 14px;
     color: white;
     text-align: left;
     padding-left: 70px;
+    align-content: left;
 }
 #p1{
     font-family: Microsoft Sans Serif;
@@ -200,7 +223,7 @@ p {
     font-weight: normal;
     font-size: 18px;
     color: white;
-    text-align: left;
+    text-align: center;
     padding-left: 70px;
 }
 .grid2{
@@ -255,6 +278,7 @@ input[type=submit]:hover {
     background-repeat: no-repeat;
     margin-top: 100px;
     margin-bottom: 100px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .a1{
@@ -290,6 +314,7 @@ input[type=submit]:hover {
     background-repeat: no-repeat;
     margin-top: 100px;
     margin-bottom: 100px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
 
@@ -317,6 +342,7 @@ input[type=submit]:hover {
     background-repeat: no-repeat;
     margin-top: 100px;
     margin-bottom: 100px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
 
@@ -355,6 +381,7 @@ input[type=submit]:hover {
     background-position: top;
     background-size: 391px 400px;
     z-index: 1;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 #a4{
     position: absolute;
@@ -561,7 +588,10 @@ input[type=submit]:hover {
     height: 425px ;
     top: -50px;
     right: -700px;
-    background: url(Group\ 35.jpg);
+    background: url(forumfix.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .kata{
     position: absolute;
@@ -569,10 +599,10 @@ input[type=submit]:hover {
     height: 118px;
     left: 80px;
     top: 80px;
-    font-family: Goudy Old Style;
+    font-family: Century Gothic;
     font-style: normal;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 20px;
+    font-weight: lighter;
     display: flex;
     align-items: center;
     text-align: center;
@@ -588,7 +618,7 @@ input[type=submit]:hover {
 }
 
 #us{
-    top: 50px;
+    top: 30px;
     border-style: solid;
     background-color: #D7EBBD;
     border-radius: 10px;
@@ -603,4 +633,13 @@ input[type=submit]:hover {
 #us:hover{
     background-color: rgb(182, 218, 120);
     color: white;
+}
+#location{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: contain;
+    width: 100%;
+    top: 400px;
 }
