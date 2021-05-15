@@ -1,0 +1,208 @@
+<?php
+session_start();
+
+if( !isset($_SESSION["login"]) ) {
+	header("Location : index.php");
+	exit;
+}
+
+include('koneksi.php');
+?>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>
+            Yuk Belajar Herbal!
+        </title>
+        <br>
+    </head>
+    
+    <body>
+        <div id="kotakjudul">
+            <h1 class="judul">HealtHerb.co</h1>
+        </div>
+        <hr>
+        <div id="navbar">
+            <a href="#" id="logo"></a>
+            <a href="#bagianhome">Home</a>    
+            <a href="#gridBesar2">Articel</a>
+            <a href="#plants">Plants</a>
+            <a href="#hijauu">Tips</a>
+            <a href="#ijo">Quote</a>
+            <a href="#forum">Forum</a>
+            <a href="#location">Location</a> 
+            <a href="#gridBesar">About</a>    
+
+        </div>
+        
+        <div id="bagianhome">
+            
+
+            <br> <br><br><br><br><br><br><br><br><br><br>
+            <br> <br><br><br><br><br><br><br><br><br><br>
+            <br> <br><br><br><br><br><br><br><br><br><br>
+            <div id="kotak">
+                <br><br><br>
+                <h1 id="judul1">Welcome To HealtHerb.co</h1>
+                <br> <br><br>
+                <p>a l w a y s &nbsp; s t a y &nbsp; h e a l t h y .</p> <br>
+                <div class="sub">
+                    <a href="#subscribe" id="subscribe">Subscribe ></a>
+                </div>
+                <div id="kotak2">
+                    <h1 class="judul2">
+                        Get in Touch
+                    </h1> <br>
+                    <p id="judul3">enter your email to subscribe us</p>  
+                    <div class="sub">
+                        <input type="text" placeholder="E-mail"> &nbsp; <input type="button" value="Send" onclick="email()"> 
+                    </div>  
+                    <script src="javascript.js"></script>     
+                </div>
+            </div>
+            <br> <br><br><br><br><br><br><br><br><br><br>
+            <br> <br><br><br><br><br><br><br><br><br><br>
+                
+                <br> <br><br><br><br><br><br><br><br><br><br>
+            <br> <br><br><br>
+        </div> 
+        <div id="gridBesar2">
+            <div id="artikel1">
+                <p class="a1">Khasiat Gingseng Jawa Untuk Melancarkan ASI</p>
+                <p class="w"> Write a comment here</p>
+            
+            </div>
+            <div id="artikel2">
+                <p class="a2">Cara Pengolahan Daun Kelor Untuk Meningkatkan Produksi ASI</p>
+                <p class="w"> Write a comment here</p>
+    
+            </div>
+            <div id="artikel3">
+                <p class="a3">Manfaat Bunga Melati Bagi Kesehatan</p>                    
+                <p class="w"> Write a comment here</p>
+    
+            </div> 
+        </div>
+        <div id="plants">
+            <div id="kencur">
+                <p id="a4">Kencur</p>
+            </div>
+            <div id="abu">
+                <p id="teksKencur">Tanaman Kencur</p>
+                <p id="teksKencur2">Kencur adalah salah satu jenis empon-empon/tanaman obat yang tergolong dalam suku temu-temuan. Rimpang atau rizoma tanaman ini mengandung minyak atsiri dan alkaloid yang dimanfaatkan sebagai stimulan.</p>
+                <a href="#" id="read"><b>Read More ></b></a>
+            </div>
+        </div>
+        <div id="hijauu">
+            
+            <div class="c1">
+                <p class="i1"> </p>
+                <p class="t1">3 Tips Menyimpan Bubuk Rempah Kering</p>
+            </div>
+            <div class="c3">
+                <p class="i3"> </p>
+                <p class="t3">Tips Budidaya Tanaman Obat Keluarga di Lahan Sempat</p>
+            </div>
+            <div class="c2">
+                <p class="i2"> </p>
+                <p class="t2">Jangan Langsung Buang Sisa Rempah dan Bumbu Dapur Kita ya Bund!</p>
+            </div>
+            
+        </div>
+        <p id="word">"A garden requires energy and patient care. Plants don't grow just to fulfill 
+                ambition or to fulfill goodwill. They thrive because someone puts effort into them." 
+                - Liberty Hyde Bailey -
+        </p>
+        <br> <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <div id="forum">
+            <p class="kata">Mari bersama-sama membangun kehidupan yang lebih sehat dengan saling berbagi ilmu maupun ketertarikanmu mengenai tanaman obat keluarga bersama kami.</p>
+            <div class="dasbel">
+            </div>
+            <div class="join">
+                <a href="#subscribe" id="us">Let's Join Us!></a>
+            </div>
+        </div>
+
+        <div id="ijo">
+            <h3 class="story">Our Story</h3>
+            <p>Selamat datang di Website HealtHerb.co</p>
+            <p>“And God said, Behold, I have given you every herb bearing seed, which is upon the <p>
+            <p>of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you it shall be for meat.”</p>
+            <br> <br><br><br><br><br>
+        </div>
+        <div id="location">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="1330" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=jl.%20kapi%20janula%20I%20no.3&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                    <a href="https://embedgooglemap.net/maps/27"></a><br>
+                    <style>.mapouter{position:relative;text-align:right;height:600px;width:1330px;}</style>
+                    <a href="https://google-map-generator.com">make your own map google</a>
+                    <style>.gmap_canvas {overflow:hidden;background:none!important;height:600px;width:1330px;}</style>
+                </div>
+            </div>
+        </div>
+        
+        <div id="gridBesar">
+            <div class="grid">
+                <hr3> Get In Touch </hr3> <br> <br>
+                <p>Jl. Kapi Janula I No.3 Sawojajar A, Sekarpuro, Kec. Pakis</p>
+                <p>Malang, Jawa Timur 65154</p>
+                <p>081234567890</p>
+                <p>healtherb001@google.ac.id</p>
+            </div>
+            <div class="grid">
+                <form>
+                    <input type="text" placeholder="Nama"> &nbsp;
+                    <input type="text" placeholder="Email"> <br>
+                    <input type="text" placeholder="Phone"> &nbsp;
+                    <input type="text" placeholder="Address"> <br> <br>
+                    <textarea cols="50" rows="5" placeholder="kritik dan saran"></textarea> <br> <br>
+                    <input type="button" value="Send" onclick="cetak()">
+    
+                </form>
+
+            </div>
+            <script src="javascript.js"></script>
+        </div>
+        <br> <br><br>
+        <div id="ijo2">
+            <div id="gridBesar1">
+                <div class="grid2">
+                    <b><p id="p1">Content</p></b>
+                    <a href="#bagianhome" class="p2">Home</a> <br>   
+                    <a href="#gridBesar2" class="p2">Articel</a><br>
+                    <a href="#plants" class="p2">Plants</a><br>
+                    <a href="#hijauu" class="p2">Tips</a><br>
+                    <a href="#ijo" class="p2">Quote</a><br>
+                    <a href="#forum" class="p2">Forum</a><br>
+                    <a href="#location" class="p2">Location</a> 
+                    
+                </div>
+                <div class="grid2">
+                    <b><p id="p1">Help</p></b>
+                    <a href="#" class="p2">Support</a><br>
+                    <a href="#" class="p2">FAQs</a><br>
+                    <a href="#" class="p2">Follow</a>
+                </div>
+                <div class="grid2">
+                    <b><p id="p1">Company</p></b>
+                    <a href="#gridBesar" class="p2">About</a> <br>
+                    <a href="#" class="p2">Contact Us</a><br>
+                    <a href="#kotak2" class="p2">Subscribe</a><br>
+                    <a href="#" class="p2">Our License</a>
+                </div>
+    
+            </div>
+        </div>
+    
+        
+    </body>
+
+
+
+</html>

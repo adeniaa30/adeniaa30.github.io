@@ -36,7 +36,7 @@ if(isset($_POST["login"])) {
 				setcookie('login', 'true', time() + 60);
 			}
 
-			header("Location: halaman2.php");
+			header("Location: pageBaru.php");
         	exit;
 
 			echo "<script>
